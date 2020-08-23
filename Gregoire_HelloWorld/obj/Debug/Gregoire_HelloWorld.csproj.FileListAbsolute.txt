@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Gregoire_HelloWorld\bin\Debug\Gregoire_HelloWorld.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Gregoire_HelloWorld\bin\Debug\Gregoire_HelloWorld.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Gregoire_HelloWorld\bin\Debug\Gregoire_HelloWorld.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Gregoire_HelloWorld\obj\Debug\Gregoire_HelloWorld.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Gregoire_HelloWorld\obj\Debug\Gregoire_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Gregoire_HelloWorld\obj\Debug\Gregoire_HelloWorld.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Gregoire_HelloWorld\obj\Debug\Gregoire_HelloWorld.pdb
