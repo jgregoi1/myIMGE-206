@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire_PE3\bin\Debug\Jacques_Gregoire_PE3.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire_PE3\bin\Debug\Jacques_Gregoire_PE3.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire_PE3\bin\Debug\Jacques_Gregoire_PE3.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire_PE3\obj\Debug\Jacques_Gregoire_PE3.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire_PE3\obj\Debug\Jacques_Gregoire_PE3.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire_PE3\obj\Debug\Jacques_Gregoire_PE3.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire_PE3\obj\Debug\Jacques_Gregoire_PE3.pdb
