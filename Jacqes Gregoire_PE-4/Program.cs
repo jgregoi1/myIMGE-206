@@ -14,10 +14,12 @@ namespace Jacqes_Gregoire_PE_4
         //
         static void Main(string[] args)
         {
+            //Creates the varibles for the progam
             int var1 = 0;
             int var2 = 0;
             bool greater = true;
 
+            //this loop won't stop until the user inputs a number lower than 10
             while (greater == true)
             {
                 Console.WriteLine("Please enter a number...");
@@ -30,6 +32,7 @@ namespace Jacqes_Gregoire_PE_4
 
                 greater =! (var1 > 10) ^ (var2 > 10);
 
+                // this statment prints out a message based on the numbers input
                 if(greater == true)
                 {
                     Console.WriteLine("Numbers rejected! Enter at least one integer less than 10.");
