@@ -1,0 +1,6 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacqes Gregoire_PE-4\bin\Debug\Jacqes Gregoire_PE-4.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacqes Gregoire_PE-4\bin\Debug\Jacqes Gregoire_PE-4.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacqes Gregoire_PE-4\bin\Debug\Jacqes Gregoire_PE-4.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacqes Gregoire_PE-4\obj\Debug\Jacqes Gregoire_PE-4.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacqes Gregoire_PE-4\obj\Debug\Jacqes Gregoire_PE-4.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacqes Gregoire_PE-4\obj\Debug\Jacqes Gregoire_PE-4.pdb
