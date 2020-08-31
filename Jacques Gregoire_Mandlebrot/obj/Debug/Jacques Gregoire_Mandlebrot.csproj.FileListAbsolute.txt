@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques Gregoire_Mandlebrot\bin\Debug\Jacques Gregoire_Mandlebrot.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques Gregoire_Mandlebrot\bin\Debug\Jacques Gregoire_Mandlebrot.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques Gregoire_Mandlebrot\bin\Debug\Jacques Gregoire_Mandlebrot.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques Gregoire_Mandlebrot\obj\Debug\Jacques Gregoire_Mandlebrot.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques Gregoire_Mandlebrot\obj\Debug\Jacques Gregoire_Mandlebrot.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques Gregoire_Mandlebrot\obj\Debug\Jacques Gregoire_Mandlebrot.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques Gregoire_Mandlebrot\obj\Debug\Jacques Gregoire_Mandlebrot.pdb
