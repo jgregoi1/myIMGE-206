@@ -10,7 +10,7 @@ namespace PE_8_3
     {
         static void Main(string[] args)
         {
-            //prompts the user for a sting
+            //prompts the user for a string
             Console.WriteLine("please enter a string");            
             string input = Console.ReadLine();
 
