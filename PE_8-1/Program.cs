@@ -11,7 +11,7 @@ namespace PE_8_1
             double z;
             int i = 0;
             int j = 0;
-            double[,,] bArray = new double[30, 40, 1200];
+            double[,,] bArray = new double[30, 1200, 3];
 
                     
 
