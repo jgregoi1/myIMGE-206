@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\PE_8-2\bin\Debug\PE_8-2.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\PE_8-2\bin\Debug\PE_8-2.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\PE_8-2\bin\Debug\PE_8-2.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\PE_8-2\obj\Debug\PE_8-2.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\PE_8-2\obj\Debug\PE_8-2.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\PE_8-2\obj\Debug\PE_8-2.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\PE_8-2\obj\Debug\PE_8-2.pdb
