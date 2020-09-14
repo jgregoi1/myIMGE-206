@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3questios remake", "3questios remake.csproj", "{C5746CE6-8F93-4983-AD13-A727D7BF5385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5746CE6-8F93-4983-AD13-A727D7BF5385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5746CE6-8F93-4983-AD13-A727D7BF5385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5746CE6-8F93-4983-AD13-A727D7BF5385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5746CE6-8F93-4983-AD13-A727D7BF5385}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {853E1D94-4233-4C5E-883E-3BBC61425F85}
+	EndGlobalSection
+EndGlobal

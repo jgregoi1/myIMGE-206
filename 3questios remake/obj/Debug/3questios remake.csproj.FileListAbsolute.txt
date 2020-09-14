@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\3questios remake\bin\Debug\3questios remake.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\3questios remake\bin\Debug\3questios remake.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\3questios remake\bin\Debug\3questios remake.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\3questios remake\obj\Debug\3questios remake.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\3questios remake\obj\Debug\3questios remake.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\3questios remake\obj\Debug\3questios remake.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\3questios remake\obj\Debug\3questios remake.pdb
