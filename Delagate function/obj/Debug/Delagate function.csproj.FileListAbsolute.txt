@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Delagate function\bin\Debug\Delagate function.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Delagate function\bin\Debug\Delagate function.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Delagate function\bin\Debug\Delagate function.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Delagate function\obj\Debug\Delagate function.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Delagate function\obj\Debug\Delagate function.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Delagate function\obj\Debug\Delagate function.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Delagate function\obj\Debug\Delagate function.pdb
