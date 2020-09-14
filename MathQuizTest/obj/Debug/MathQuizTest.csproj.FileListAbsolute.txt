@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MathQuizTest\bin\Debug\MathQuizTest.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MathQuizTest\bin\Debug\MathQuizTest.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MathQuizTest\bin\Debug\MathQuizTest.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MathQuizTest\obj\Debug\MathQuizTest.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MathQuizTest\obj\Debug\MathQuizTest.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MathQuizTest\obj\Debug\MathQuizTest.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MathQuizTest\obj\Debug\MathQuizTest.pdb
