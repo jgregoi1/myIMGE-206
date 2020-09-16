@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Salary1\obj\Debug\Salary1.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Salary1\obj\Debug\Salary1.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Salary1\bin\Debug\Salary1.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Salary1\bin\Debug\Salary1.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Salary1\bin\Debug\Salary1.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Salary1\obj\Debug\Salary1.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Salary1\obj\Debug\Salary1.pdb
