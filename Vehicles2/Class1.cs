@@ -9,12 +9,9 @@ namespace Vehicle
 
     public abstract class vehicle: PassengerCarrier
     {
-
-        public virtual void LoadPassenger() { 
-        }
-        void PassengerCarrier.loadPassenger()
+        public virtual void loadPassenger()
         {
-            
+
         }
 
        
