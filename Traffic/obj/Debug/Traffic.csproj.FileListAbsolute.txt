@@ -1,0 +1,2 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Traffic\obj\Debug\Traffic.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Traffic\obj\Debug\Traffic.csproj.CoreCompileInputs.cache

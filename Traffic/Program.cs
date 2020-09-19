@@ -11,11 +11,16 @@ namespace Traffic
     {
         static void Main(string[] args)
         {
-
+           
         }
         public static void AddPassenger(PassengerCarrier thing)
         {
-            Vehicle.PassengerCarrier.loadPassenger(thing);
+            //PassengerCarrier.loadPassenger();
+            PassengerCarrier carrier = (PassengerCarrier)thing;
+
+            carrier.loadPassenger();
+
+            Console.WriteLine(thing.ToString());
         }
     }
 }
