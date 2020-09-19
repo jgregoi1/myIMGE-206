@@ -7,14 +7,17 @@ using System.Threading.Tasks;
 namespace Vehicle
 {
 
-    public abstract class vehicle
+    public abstract class vehicle: PassengerCarrier
     {
-        public virtual void LoadPassenger()
-        {
 
+        public virtual void LoadPassenger() { 
+        }
+        void PassengerCarrier.loadPassenger()
+        {
+            
         }
 
-
+       
 
     }
 
@@ -30,17 +33,17 @@ namespace Vehicle
 
     public interface PassengerCarrier
     {
-        //void loadPassenger();
+        void loadPassenger();
     }
 
     public interface HeavyLoadCarrier
     {
-
+        
     }
 
     public class compact : car, PassengerCarrier
     {
-
+        
     }
 
     public class SUV : car, PassengerCarrier
