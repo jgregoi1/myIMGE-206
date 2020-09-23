@@ -80,7 +80,7 @@ namespace CourseLib
                 }
                 catch
                 {
-                    
+                    Console.WriteLine("A course with that code already exsists, pease try again");
                 }
             }
         }

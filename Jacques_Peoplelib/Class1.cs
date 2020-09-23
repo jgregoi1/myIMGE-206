@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PeopleLib
+namespace Jacques_PeopleLib
 {
     public abstract class Person
     {

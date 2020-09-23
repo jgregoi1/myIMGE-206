@@ -13,12 +13,7 @@ namespace CourseLib
         public string TeacherEmail;
         public Schedule schedule;
 
-        public Course(string courseCode, string Description)
-        {
-            this.courseCode = courseCode;
-            this.Description = Description;
-
-        }
+        public Course(string courseCode, string Desription) { }
 
     }
 }

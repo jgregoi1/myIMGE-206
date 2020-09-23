@@ -1,0 +1,12 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\bin\Debug\Jacques_Gregoire people app.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\bin\Debug\Jacques_Gregoire people app.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\bin\Debug\Jacques_Gregoire people app.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\bin\Debug\CourseLib.dll
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\bin\Debug\Jacques_Peoplelib.dll
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\bin\Debug\CourseLib.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\bin\Debug\Jacques_Peoplelib.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\obj\Debug\Jacques_Gregoire people app.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\obj\Debug\Jacques_Gregoire people app.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\obj\Debug\Jacques_Gregoire people app.csproj.CopyComplete
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\obj\Debug\Jacques_Gregoire people app.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire people app\obj\Debug\Jacques_Gregoire people app.pdb
