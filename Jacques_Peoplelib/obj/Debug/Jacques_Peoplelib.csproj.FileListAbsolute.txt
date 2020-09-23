@@ -1,0 +1,6 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Peoplelib\bin\Debug\Jacques_Peoplelib.dll
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Peoplelib\bin\Debug\Jacques_Peoplelib.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Peoplelib\obj\Debug\Jacques_Peoplelib.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Peoplelib\obj\Debug\Jacques_Peoplelib.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Peoplelib\obj\Debug\Jacques_Peoplelib.dll
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Peoplelib\obj\Debug\Jacques_Peoplelib.pdb
