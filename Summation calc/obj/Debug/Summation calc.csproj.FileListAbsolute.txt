@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Summation calc\bin\Debug\Summation calc.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Summation calc\bin\Debug\Summation calc.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Summation calc\bin\Debug\Summation calc.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Summation calc\obj\Debug\Summation calc.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Summation calc\obj\Debug\Summation calc.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Summation calc\obj\Debug\Summation calc.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Summation calc\obj\Debug\Summation calc.pdb
