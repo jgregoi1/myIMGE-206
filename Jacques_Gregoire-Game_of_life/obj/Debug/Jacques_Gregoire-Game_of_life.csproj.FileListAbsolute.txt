@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire-Game_of_life\bin\Debug\Jacques_Gregoire-Game_of_life.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire-Game_of_life\bin\Debug\Jacques_Gregoire-Game_of_life.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire-Game_of_life\bin\Debug\Jacques_Gregoire-Game_of_life.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire-Game_of_life\obj\Debug\Jacques_Gregoire-Game_of_life.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire-Game_of_life\obj\Debug\Jacques_Gregoire-Game_of_life.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire-Game_of_life\obj\Debug\Jacques_Gregoire-Game_of_life.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Jacques_Gregoire-Game_of_life\obj\Debug\Jacques_Gregoire-Game_of_life.pdb
