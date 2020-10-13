@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Tester3\bin\Debug\Tester3.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Tester3\bin\Debug\Tester3.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Tester3\bin\Debug\Tester3.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Tester3\obj\Debug\Tester3.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Tester3\obj\Debug\Tester3.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Tester3\obj\Debug\Tester3.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Tester3\obj\Debug\Tester3.pdb
