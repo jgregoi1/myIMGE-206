@@ -207,7 +207,7 @@ namespace BTree
                     root = node;
                 }
             }
-
+            
             this.richTextBox1.Text += "\n";
             BTree.TraverseAscending(root);
 
