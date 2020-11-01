@@ -14,6 +14,7 @@ using System.Web;
 using Newtonsoft.Json;
 using System.Runtime.ExceptionServices;
 using System.CodeDom;
+using System.Runtime.InteropServices;
 
 namespace Don_t_Die
 {
@@ -30,7 +31,7 @@ namespace Don_t_Die
     {
         public Edirection direction = Edirection.none;
         public int cost = -1;
-        public int neightbor;
+        public int neighbor;
         public bool isValid = false;
     }
 
@@ -48,7 +49,7 @@ namespace Don_t_Die
     {
         public int response_code;
         public List<TriviaResult> results;
-
+        
     }
     
 
@@ -119,7 +120,7 @@ namespace Don_t_Die
             new int[] {}
         };
 
-        
+        public static bool isRight = false;
         static Path path1 = new Path();
         static Path path2 = new Path();
         static Path path3 = new Path();
@@ -137,7 +138,7 @@ namespace Don_t_Die
             bool gameOver = false;
             string response;
             string movement;
-            bool isCorrect = false;
+            ;
             
            
             List<Path> directions = new List<Path>();
@@ -147,7 +148,7 @@ namespace Don_t_Die
                 Description(room);
                 Console.WriteLine("Hp: " + health);
                 pathfinder(room, lDirection, lNeighbors, lCost);
-                isCorrect = false;
+                isRight = false;
                 if (path1.cost < health && path1.cost != -1)
                 {
                     Console.WriteLine(" You see a path to the " + path1.direction + ". Path cost:" + path1.cost);
@@ -175,9 +176,7 @@ namespace Don_t_Die
                     directions.Add(path4);
 
                 }
-
-
-                tryAgain:
+                
                 Console.WriteLine();
 
                 Console.WriteLine("What do you do: \nTrivia. \nMove.");
@@ -207,7 +206,8 @@ namespace Don_t_Die
                             Console.WriteLine("That path isnt valid");
                             goto again;
                         }
-                        room = path1.neightbor;
+                        
+                        room = path1.neighbor;
                         health -= path1.cost;
                     }
                     if (movement == path2.direction.ToString())
@@ -217,7 +217,8 @@ namespace Don_t_Die
                             Console.WriteLine("That path isnt valid");
                             goto again;
                         }
-                        room = path2.neightbor;
+                        
+                        room = path2.neighbor;
                         health -= path2.cost;
                     }
                     if (movement == path3.direction.ToString())
@@ -227,7 +228,8 @@ namespace Don_t_Die
                             Console.WriteLine("That path isnt valid");
                             goto again;
                         }
-                        room = path3.neightbor;
+                        
+                        room = path3.neighbor;
                         health -= path3.cost;
                     }
                     if (movement == path4.direction.ToString())
@@ -237,7 +239,8 @@ namespace Don_t_Die
                             Console.WriteLine("That path isnt valid");
                             goto again;
                         }
-                        room = path4.neightbor;
+                        
+                        room = path4.neighbor;
                         health -= path4.cost;
                     }
 
@@ -265,22 +268,18 @@ namespace Don_t_Die
                         goto Oncemore;
                     }
 
-                    Trivia(isCorrect, wager);
+                    TriviaFunc(wager);
 
-                    if(isCorrect == true)
+                    if (isRight == true)
                     {
                         health += wager;
                     }
-                    if(isCorrect == false)
+                    if (isRight == false)
                     {
                         health -= wager;
                     }
                 }
-                else
-                {
-                    Console.WriteLine("Make a valid selection.");
-                    goto tryAgain;
-                }
+                
 
                 if(health <= 0)
                 {
@@ -289,6 +288,7 @@ namespace Don_t_Die
                 }
                 if(room == 7)
                 {
+                    Description(room);
                     gameOver = true;
                     Console.WriteLine("You Win!");
                 }
@@ -328,7 +328,7 @@ namespace Don_t_Die
             }
             if (room == 7)
             {
-                Console.WriteLine("You enter this room and see exactly what you have been looking for, an exit. light shines from a hole far above. \n A rope and bucket decends to a pool at the center of the cavern. finally you have found a way out. ");
+                Console.WriteLine("You enter this room and see exactly what you have been looking for: an exit. light shines from a hole far above. \n A rope and bucket decends to a pool at the center of the cavern. finally you have found a way out. ");
             }
             if (room > 7 || room < 0)
             {
@@ -344,19 +344,19 @@ namespace Don_t_Die
 
                 if (i == 0)
                 {
-                    path1.cost = neighbors[room][i];
+                    path1.neighbor = neighbors[room][i];
                 }
                 if(i == 1)
                 {
-                    path2.cost = neighbors[room][i];
+                    path2.neighbor = neighbors[room][i];
                 }
                 if(i == 2)
                 {
-                    path3.cost = neighbors[room][i];
+                    path3.neighbor = neighbors[room][i];
                 }
                 if(i == 3)
                 {
-                    path4.cost = neighbors[room][i];
+                    path4.neighbor = neighbors[room][i];
                 }
 
             }
@@ -406,7 +406,7 @@ namespace Don_t_Die
             }
         }
        
-        public static bool Trivia(bool isCorrect, int wager)
+        public static void TriviaFunc(int wager)
         {
             
             string url = null;
@@ -504,24 +504,24 @@ namespace Don_t_Die
             if(answers[inputS -1] == trivia.results[0].correct_answer)
             {
                 
-                Console.WriteLine("Correct! you gained " + wager + " health!");
-                isCorrect = true;
+                Console.WriteLine("Correct! you gained " + wager + " health!");                
+                isRight = true;
             }
             else
             {
                 Console.WriteLine("Incorrect! the correct answer was " + trivia.results[0].correct_answer + ".");                
                 Console.WriteLine("You lost " + wager + " health.");
-                isCorrect = false;
+                isRight = false;
             }
 
-            return isCorrect;
+            
         }
         
         public static int attack(int hp)
         {
             Random rando = new Random();
             int type = rando.Next(0, 7);
-            int loss = rando.Next(0, (hp - 1));
+            int loss = rando.Next(0, (hp- 1));
 
 
 
