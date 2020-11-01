@@ -1,0 +1,10 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\bin\Debug\Don't Die.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\bin\Debug\Don't Die.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\bin\Debug\Don't Die.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\obj\Debug\Don't Die.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\obj\Debug\Don't Die.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\obj\Debug\Don't Die.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\obj\Debug\Don't Die.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Don't Die\obj\Debug\Don't Die.csproj.CopyComplete
