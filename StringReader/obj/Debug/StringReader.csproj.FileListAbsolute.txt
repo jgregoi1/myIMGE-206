@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\StringReader\bin\Debug\StringReader.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\StringReader\bin\Debug\StringReader.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\StringReader\bin\Debug\StringReader.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\StringReader\obj\Debug\StringReader.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\StringReader\obj\Debug\StringReader.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\StringReader\obj\Debug\StringReader.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\StringReader\obj\Debug\StringReader.pdb
