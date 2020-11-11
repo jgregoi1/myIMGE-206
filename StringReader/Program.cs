@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -33,6 +34,23 @@ namespace StringReader
             Reverse(linkedList);
 
             Console.WriteLine();
+
+
+
+
+            //removes all sepecial characters ( in theroy)
+            for (int j = 0; j < linkedList.Count; j++)
+            {
+                linkedList.Remove(' ');
+            }
+            for (int j = 0; j < linkedList.Count; j++)
+            {
+                linkedList.Remove(',');
+            }
+            for (int j = 0; j < linkedList.Count; j++)
+            {
+                linkedList.Remove(Convert.ToChar('.'));
+            }
 
             Pallidrome(linkedList);
         }
@@ -85,8 +103,8 @@ namespace StringReader
 
         static void Pallidrome(LinkedList<char> list)
         {
-            bool isPallidrome = true;           
-
+            bool isPallidrome = true;
+            
             LinkedList<char> lister1 = new LinkedList<char>();
             LinkedList<char> lister2 =  new LinkedList<char>();
             LinkedListNode<char> linkedListNode1;
