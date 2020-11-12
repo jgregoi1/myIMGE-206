@@ -49,9 +49,12 @@ namespace StringReader
             }
             for (int j = 0; j < linkedList.Count; j++)
             {
-                linkedList.Remove(Convert.ToChar('.'));
+                linkedList.Remove('.');
             }
-
+            for(int j = 0; j< linkedList.Count; j++)
+            {
+                linkedList.Remove('\"');
+            }
             Pallidrome(linkedList);
         }
 
