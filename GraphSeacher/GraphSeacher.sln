@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSeacher", "GraphSeacher.csproj", "{5637EC23-937A-45F1-ABD6-F885FC29EDAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5637EC23-937A-45F1-ABD6-F885FC29EDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5637EC23-937A-45F1-ABD6-F885FC29EDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5637EC23-937A-45F1-ABD6-F885FC29EDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5637EC23-937A-45F1-ABD6-F885FC29EDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {517A07B3-0899-4DB8-9C5B-DBDB46D3DDC5}
+	EndGlobalSection
+EndGlobal

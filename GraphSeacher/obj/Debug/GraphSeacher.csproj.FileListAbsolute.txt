@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\GraphSeacher\bin\Debug\GraphSeacher.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\GraphSeacher\bin\Debug\GraphSeacher.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\GraphSeacher\bin\Debug\GraphSeacher.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\GraphSeacher\obj\Debug\GraphSeacher.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\GraphSeacher\obj\Debug\GraphSeacher.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\GraphSeacher\obj\Debug\GraphSeacher.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\GraphSeacher\obj\Debug\GraphSeacher.pdb
