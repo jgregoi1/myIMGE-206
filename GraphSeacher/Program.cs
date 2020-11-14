@@ -120,7 +120,7 @@ namespace GraphSeacher
 
         static int nState = 0;
         static List<Node> list = new List<Node>();
-
+        static List<Node> linkedList = new List<Node>();
         static void Main(string[] args)
         {
 
@@ -164,6 +164,58 @@ namespace GraphSeacher
                 IntToColor(list[i].nState);
             }
             Console.WriteLine(" ");
+
+            //the code to make a linked list
+            node = new Node(0);
+            linkedList.Add(node);
+
+            node = new Node(1);
+            linkedList.Add(node);
+
+            node = new Node(2);
+            linkedList.Add(node);
+
+            node = new Node(3);
+            linkedList.Add(node);
+
+            node = new Node(4);
+            linkedList.Add(node);
+
+            node = new Node(5);
+            linkedList.Add(node);
+
+            node = new Node(6);
+            linkedList.Add(node);
+
+            node = new Node(7);
+            linkedList.Add(node);
+
+            node = linkedList[0];
+            node.AddEdge(1, linkedList[1]);
+            node.AddEdge(5, linkedList[3]);
+
+            node = linkedList[1];
+            node.AddEdge(1, linkedList[2]);
+            node.AddEdge(8, linkedList[6]);
+
+            node = linkedList[2];
+            node.AddEdge(1, linkedList[1]);
+            node.AddEdge(0, linkedList[3]);
+
+            node = linkedList[3];
+            node.AddEdge(0, linkedList[2]);
+            node.AddEdge(1, linkedList[4]);
+
+            node = linkedList[4];
+            node.AddEdge(1, linkedList[5]);
+
+            node = linkedList[5];
+            node.AddEdge(1, linkedList[6]);
+
+            node = linkedList[6];
+            node.AddEdge(6, linkedList[7]);
+
+
         }
 
 
