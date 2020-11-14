@@ -163,7 +163,7 @@ namespace GraphSeacher
             {
                 IntToColor(list[i].nState);
             }
-            Console.WriteLine("");
+            Console.WriteLine(" ");
         }
 
 
