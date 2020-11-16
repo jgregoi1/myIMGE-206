@@ -182,25 +182,25 @@ namespace BTree
             this.richTextBox1.Clear();
 
             BTree node = null;
-            BTree root = null;
+            BTree root= null;
 
-            node = new BTree(1, root, false);
-            node = new BTree(5, root, false);
-            node = new BTree(15, root, false);
-            node = new BTree(20, root, false);
-            node = new BTree(21, root, false);
-            node = new BTree(22, root, false);
-            node = new BTree(23, root, false);
-            node = new BTree(24, root, false);
-            node = new BTree(25, root, false);
-            node = new BTree(30, root, false);
-            node = new BTree(35, root, false);
-            node = new BTree(37, root, false);
-            node = new BTree(40, root, false);
-            node = new BTree(55, root, false);
-            node = new BTree(60, root, false);
+            root = new BTree(1, root,  true);
+            node = new BTree(5, root,  true);
+            node = new BTree(15, root, true);
+            node = new BTree(20, root, true);
+            node = new BTree(21, root, true);
+            node = new BTree(22, root, true);
+            node = new BTree(23, root, true);
+            node = new BTree(24, root, true);
+            node = new BTree(25, root, true);
+            node = new BTree(30, root, true);
+            node = new BTree(35, root, true);
+            node = new BTree(37, root, true);
+            node = new BTree(40, root, true);
+            node = new BTree(55, root, true);
+            node = new BTree(60, root, true);
 
-            LinkedList<int> list = new LinkedList<int>();
+            List<int> list = new List<int>();
 
 
             
@@ -208,17 +208,47 @@ namespace BTree
             this.richTextBox1.Text += "\n";
             BTree.TraverseAscending(root);
 
-            VisualizeBinaryTree visualizeBinaryTree = new VisualizeBinaryTree(root);
+            this.richTextBox1.Clear();
+
+            node = null;
+            root = null;
+
 
             list = TraverseAscendingII(root);
 
+            VisualizeBinaryTree visualizeBinaryTree = new VisualizeBinaryTree(root);
 
 
+            //this will only work if the numbers are put into the list in the order they are on the test.
+            //but since the visualizer isnt working, I can't really check
+
+            root = new BTree(list[9], root, true);
+            node = new BTree(list[3], root, true);
+            node = new BTree(list[11], root, true);
+            node = new BTree(list[1], root, true);
+            node = new BTree(list[5], root, true);
+            node = new BTree(list[9], root, true);
+            node = new BTree(list[13], root, true);
+            node = new BTree(list[0], root, true);
+            node = new BTree(list[2], root, true);
+            node = new BTree(list[4], root, true);
+            node = new BTree(list[6], root, true);
+            node = new BTree(list[8], root, true);
+            node = new BTree(list[10], root, true);
+            node = new BTree(list[12], root, true);
+            node = new BTree(list[14], root, true);
+
+            //do whatever with the visualizer
+            visualizeBinaryTree = new VisualizeBinaryTree(root);
+            BTree.TraverseAscending(root);
+
+            
         }
 
-        public static LinkedList<int> TraverseAscendingII(BTree node)
+
+        public static List<int> TraverseAscendingII(BTree node)
         {
-            LinkedList<int> lister = new LinkedList<int>();
+            List<int> lister = new List<int>();
 
             if (node != null)
             {
@@ -228,7 +258,7 @@ namespace BTree
                 if (node.isData)
                 {
                     // handle current node
-                    lister.AddFirst(Convert.ToInt32(node.data));
+                    lister.Add(Convert.ToInt32(node.data));
 
                 }
 

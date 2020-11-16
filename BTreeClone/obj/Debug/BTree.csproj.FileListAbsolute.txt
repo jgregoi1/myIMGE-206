@@ -23,3 +23,15 @@ C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTree\obj\Debug\BTree.cspr
 C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTree\obj\Debug\BTree.csproj.CopyComplete
 C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTree\obj\Debug\BTree.exe
 C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTree\obj\Debug\BTree.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\bin\Debug\BTree.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\bin\Debug\BTree.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\bin\Debug\BTree.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\bin\Debug\BinaryTreeVisualizer.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\obj\Debug\BTree.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\obj\Debug\BTree.Form1.resources
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\obj\Debug\BTree.Properties.Resources.resources
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\obj\Debug\BTree.csproj.GenerateResource.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\obj\Debug\BTree.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\obj\Debug\BTree.csproj.CopyComplete
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\obj\Debug\BTree.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\BTreeClone\obj\Debug\BTree.pdb
