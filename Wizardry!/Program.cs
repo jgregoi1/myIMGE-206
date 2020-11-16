@@ -96,6 +96,9 @@ namespace Wizardry_
             //alternative method (Now with a lambda!)
             wizards = wizards.OrderBy(other => other.age).ToList();
 
+            //alternative method (With 100% more Delegates!)
+            wizards = wizards.OrderBy(delegate (Wizard other){ return other.age; }).ToList();
+            
             Console.WriteLine();
             Console.WriteLine("After sorting:");
             foreach (Wizard mage in wizards)
