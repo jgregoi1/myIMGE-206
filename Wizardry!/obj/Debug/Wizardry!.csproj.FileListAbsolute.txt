@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Wizardry!\bin\Debug\Wizardry!.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Wizardry!\bin\Debug\Wizardry!.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Wizardry!\bin\Debug\Wizardry!.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Wizardry!\obj\Debug\Wizardry!.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Wizardry!\obj\Debug\Wizardry!.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Wizardry!\obj\Debug\Wizardry!.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\Wizardry!\obj\Debug\Wizardry!.pdb
