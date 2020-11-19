@@ -34,7 +34,7 @@ namespace TicTacToe
             new int[] {15, 8738, 24582, 51, 2570, 16770, 10258, 49155, 20495},
             new int[] {15, 4369, 33825, 36873, 51, 33357, 1258, 49155, 34388, 33153, 40965}
         };
-
+        
         static int[] strengths = new int[16];
         static int[] winStates = new int[34];
 
