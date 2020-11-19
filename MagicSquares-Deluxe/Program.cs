@@ -6,105 +6,90 @@ using System.Threading.Tasks;
 
 namespace TicTacToe
 {
-    //This probably doesnt work, and I don't understand it enough to fix it properly
-    //But I gave it my best shot and got the code as far along as I could.
+    // Adjacency Matrix (19,683 x 19,683)  (512 x 512) 
+
     static class Program
     {
+        const int MAX_SPACES = 16;
+        const int MAX_WINSTATES = 86;
+
         // Adjacency List (strength, next moves = List<state>)
         static (int, List<int>)[] aList;
 
-        //see word doc
+        static List<int>[] lWinStates = new List<int>[MAX_SPACES];
 
-        static int[][] aWinStates = new int[][]
-        {
-            new int[] {30720, 34952, 33825, 36873, 52224, 33345, 41120, 49155, 34833, 33153, 40965},
-            new int[] {30720, 17476, 24582, 52224, 20560},
-            new int[] {30720, 8738, 24582, 13056, 41120, 10258, 12300, 40965},
-            new int[] {30720, 4369, 36873, 13056, 5160, 20560, 12300, 4488, 20490, 6168},
-            new int[] {3840, 34952, 2448, 52224, 2570, 10258, 34833, 6168},
-            new int[] {3840, 17476, 33825, 1632, 52224, 5160, 1285},
-            new int[] {3840, 8738, 4680, 1632, 13056, 33345, 2570},
-            new int[] {3840, 4369, 2448, 13056, 1285, 16770, 4488, 33153},
-            new int[] {240, 34952, 2448, 204, 41120, 16770, 4488, 33153},
-            new int[] {240, 17476, 4680, 1632, 204, 33345, 20560},
-            new int[] {240, 8738, 33825, 1632, 51, 5160, 41120},
-            new int[] {240, 4369, 2448, 51, 20560, 10258, 34833, 6168},
-            new int[] {15, 34952, 4680, 36873, 204, 5160, 2570, 12300, 4488,20490},
-            new int[] {15, 17476, 24582, 204, 1285, 12300, 40965},
-            new int[] {15, 8738, 24582, 51, 2570, 16770, 10258, 49155, 20495},
-            new int[] {15, 4369, 33825, 36873, 51, 33357, 1258, 49155, 34388, 33153, 40965}
-        };
-        
-        static int[] strengths = new int[16];
-        static int[] winStates = new int[34];
+        static int[] strengths = new int[MAX_SPACES];
+        static int[] winStates = new int[MAX_WINSTATES];
 
         static Random random = new Random();
 
         static void Main(string[] args)
         {
-            bool[] grid = new bool[16];
+            bool[] grid = new bool[MAX_SPACES];
 
             // p1 and p2 are the integer representations of the players game boards
             // using the lowest 9 bits to indicate their chosen spaces
+            // bit 8 corresponds to the top left space of the game board
+            // bit 7 corresponds to the top center space
+            // ...
+            // bit 0 (the least significant bit) corresponds to the bottom right space
             int p1 = 0;
             int p2 = 0;
 
             int nWinner = 0;
             int nPlayer = 1;
 
-            //int[] nValue = new int[]
-            //{
-            //    16, 3, 2, 13,
-            //    5, 10, 11, 8,
-            //    9, 6, 7, 12,
-            //    4, 15, 14, 1
-            //};
-            //for(int nState = 0; nState < Math.Pow(2,16); ++nState)
-            //{
-            //    bool[] bState;
-            //    int i1;
-            //    (bState, i1, i2) = IntToGrid()
-            //}
+            // represent the gameboard as a Magic Square to calculate winning states
+            int[] nValues = new int[]
+            {
+                16, 3, 2, 13,
+                5, 10, 11, 8,
+                9, 6, 7, 12,
+                4, 15, 14, 1
+            };
 
-            // bit 8 corresponds to the top left space of the game board
-            // bit 7 corresponds to the top center space
-            // ...
-            // bit 0 (the least significant bit) corresponds to the bottom right space
-            winStates[0] = 30720; 
-            winStates[1] = 3840;  
-            winStates[2] = 240;   
-            winStates[3] = 15; 
-            winStates[4] = 34952; 
-            winStates[5] = 17476;  
-            winStates[6] = 8738; 
-            winStates[7] = 4369;
-            winStates[8] = 33825;
-            winStates[9] = 4680;
-            winStates[10] = 36873;
-            winStates[11] = 1632;
-            winStates[12] = 24582;
-            winStates[13] = 2448;
-            winStates[14] = 52224;
-            winStates[15] = 13056;
-            winStates[16] = 204;
-            winStates[17] = 51;
-            winStates[18] = 33345;
-            winStates[19] = 5160;
-            winStates[20] = 20560;
-            winStates[21] = 2571;
-            winStates[22] = 41120;
-            winStates[23] = 1285;
-            winStates[24] = 16770;
-            winStates[25] = 10258;
-            winStates[26] = 49155;
-            winStates[27] = 12300;
-            winStates[28] = 34833;
-            winStates[29] = 4488;
-            winStates[30] = 33153;
-            winStates[31] = 20490;
-            winStates[32] = 40965;
-            winStates[33] = 6168;
+            int i;
 
+            int nMagicNumber = 34;
+
+            for (i = 0; i < MAX_SPACES; ++i)
+            {
+                lWinStates[i] = new List<int>();
+            }
+
+            int wCntr = 0;
+
+            for (int nState = 0; nState < Math.Pow(2, MAX_SPACES); ++nState)
+            {
+                bool[] bState;
+                int i1;
+                (bState, i1, i1) = IntToGrid(nState);
+
+                int nTaken = 0;
+                int nSum = 0;
+                for (i = 0; i < MAX_SPACES; ++i)
+                {
+                    if (bState[i])
+                    {
+                        nTaken++;
+                        nSum += nValues[i];
+                    }
+                }
+
+                if (nTaken == Math.Sqrt(MAX_SPACES) && nSum == nMagicNumber)
+                {
+                    for (i = 0; i < MAX_SPACES; ++i)
+                    {
+                        if (bState[i])
+                        {
+                            lWinStates[i].Add(nState);
+                        }
+                    }
+
+                    winStates[wCntr] = nState;
+                    ++wCntr;
+                }
+            }
 
 
             for (int j = 0; j < 100; ++j)
@@ -139,7 +124,7 @@ namespace TicTacToe
                 }
 
 
-                while (nWinner == 0 && ((p1 | p2) != Math.Pow(2, 16) - 1))
+                while (nWinner == 0 && ((p1 | p2) != Math.Pow(2, MAX_SPACES) - 1))
                 {
                     if (nPlayer == 1)
                     {
@@ -151,7 +136,7 @@ namespace TicTacToe
                                 Console.Write("Player 1 Move (1-16): ");
                             } while (!int.TryParse(Console.ReadLine(), out nMove));
 
-                            p1 |= 1 << (15 - nMove + 1);
+                            p1 |= 1 << (MAX_SPACES - nMove);
                         }
                         else
                         {
@@ -161,7 +146,7 @@ namespace TicTacToe
                             }
                             else
                             {
-                                p1 = 1 << random.Next(0, 16);
+                                p1 = 1 << random.Next(0, MAX_SPACES);
                             }
                         }
 
@@ -176,7 +161,7 @@ namespace TicTacToe
                         }
                         else
                         {
-                            p2 = 1 << random.Next(0, 16);
+                            p2 = 1 << random.Next(0, MAX_SPACES);
                         }
 
                         nPlayer = 1;
@@ -210,7 +195,7 @@ namespace TicTacToe
         {
             int nWinner = 0;
             int i;
-            
+
             for (i = 0; i < winStates.Length; ++i)
             {
                 if ((p1 & winStates[i]) == winStates[i])
@@ -237,7 +222,7 @@ namespace TicTacToe
             (p1G, nCnt, strength) = IntToGrid(p1);
             (p2G, nCnt, strength) = IntToGrid(p2);
 
-            for (int i = 0; i < 16; ++i)
+            for (int i = 0; i < MAX_SPACES; ++i)
             {
                 if (p1G[i])
                 {
@@ -252,7 +237,7 @@ namespace TicTacToe
                     Console.Write("   ");
                 }
 
-                if ((i + 1) % 4 == 0)
+                if ((i + 1) % Math.Sqrt(MAX_SPACES) == 0)
                 {
                     Console.WriteLine();
                 }
@@ -325,14 +310,14 @@ namespace TicTacToe
             int i;
             int j;
             int nCnt;
-            bool[] grid = new bool[16];
+            bool[] grid = new bool[MAX_SPACES];
             int strength = 0;
 
             aList = new (int, List<int>)[65536];
 
             Dictionary<int, bool> dWinStates = new Dictionary<int, bool>();
 
-            for (i = 0; i < 34; ++i)
+            for (i = 0; i < MAX_WINSTATES; ++i)
             {
                 if (((winStates[i] ^ a) & winStates[i]) == winStates[i])
                 {
@@ -344,16 +329,13 @@ namespace TicTacToe
                 }
             }
 
-            for (i = 0; i < 16; ++i)
+            for (i = 0; i < MAX_SPACES; ++i)
             {
                 strengths[i] = 0;
-                Console.WriteLine(aWinStates[i].Length);
-                for (j = 0; j < aWinStates[i].Length; ++j)
+
+                for (j = 0; j < lWinStates[i].Count; ++j)
                 {
-                    
-                    //Console.WriteLine(j);
-                    Console.WriteLine(aWinStates[i][j].ToString());
-                    if (dWinStates[aWinStates[i][j]])
+                    if (dWinStates[lWinStates[i][j]])
                     {
                         ++strengths[i];
                     }
@@ -363,12 +345,12 @@ namespace TicTacToe
             // populate all possible board states for 1 player
             // there are a theoretical 2^9 possible states
             // but a smaller practical limit
-            for (i = 0; i < Math.Pow(2, 16); ++i)
+            for (i = 0; i < Math.Pow(2, MAX_SPACES); ++i)
             {
                 // (Item1, Item2, Item3)
                 (grid, nCnt, strength) = IntToGrid(i, dWinStates);
 
-                if (nCnt <= 8) 
+                if (nCnt <= (MAX_SPACES / 2) + 1)
                 {
                     // aList[0].Item1 = strength
                     // aList[0].Item2 = List<int> (weighted list of neighbors)
@@ -389,10 +371,10 @@ namespace TicTacToe
 
                 (grid, nCnt, strength) = IntToGrid(i);
 
-                for (int g = 0; g < 16; ++g)
+                for (int g = 0; g < MAX_SPACES; ++g)
                 {
-                    bool[] neighbor = new bool[16];
-                    Array.Copy(grid, neighbor, 16);
+                    bool[] neighbor = new bool[MAX_SPACES];
+                    Array.Copy(grid, neighbor, MAX_SPACES);
 
                     if (!neighbor[g])
                     {
@@ -427,11 +409,11 @@ namespace TicTacToe
         {
             int r = 0;
 
-            for (int i = 0; i < 16; ++i)
+            for (int i = 0; i < MAX_SPACES; ++i)
             {
                 if (g[i])
                 {
-                    r += (1 << (15 - i));
+                    r += (1 << ((MAX_SPACES - 1) - i));
                 }
             }
 
@@ -441,7 +423,7 @@ namespace TicTacToe
         // convert current state c to (boolean grid, move count, strength)
         public static (bool[], int, int) IntToGrid(int c, Dictionary<int, bool> dWinStates = null)
         {
-            bool[] bCell = new bool[16];
+            bool[] bCell = new bool[MAX_SPACES];
             int nCnt = 0;
             int nMaxStrength = 1;
             int i = 0;
@@ -463,25 +445,25 @@ namespace TicTacToe
                 }
             }
 
-            for (i = 0; i < 16 && nCnt <= 9; ++i)
+            for (i = 0; i < 16 && nCnt <= (MAX_SPACES / 2) + 1; ++i)
             {
                 if (((1 << i) & c) != 0)
                 {
                     if (nMaxStrength < 1000)
                     {
-                        nMaxStrength += strengths[15 - i];
+                        nMaxStrength += strengths[(MAX_SPACES - 1) - i];
                     }
 
-                    bCell[15 - i] = true;
+                    bCell[(MAX_SPACES - 1) - i] = true;
                     ++nCnt;
                 }
                 else
                 {
-                    bCell[15 - i] = false;
+                    bCell[(MAX_SPACES - 1) - i] = false;
                 }
             }
 
-
+            
             if (nMaxStrength < 1000)
             {
                 for (i = 0; i < 16; ++i)
@@ -489,9 +471,9 @@ namespace TicTacToe
                     if (bCell[i])
                     {
                         // if 2 cells are part of a winning solution
-                        foreach (int winstate in aWinStates[i])
+                        foreach (int winstate in lWinStates[i])
                         {
-                            for (j = 0; j < 16; ++j)
+                            for (j = 0; j < MAX_SPACES; ++j)
                             {
                                 if (j == i)
                                 {
@@ -505,7 +487,7 @@ namespace TicTacToe
 
                                 if (bCell[j])
                                 {
-                                    if (((1 << (15 - j)) & winstate) != 0)
+                                    if (((1 << ((MAX_SPACES - 1) - j)) & winstate) != 0)
                                     {
                                         nMaxStrength += 30;
                                     }
@@ -520,4 +502,3 @@ namespace TicTacToe
         }
     }
 }
-

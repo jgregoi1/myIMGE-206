@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\TicTacTwo\bin\Debug\TicTacTwo.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\TicTacTwo\bin\Debug\TicTacTwo.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\TicTacTwo\bin\Debug\TicTacTwo.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\TicTacTwo\obj\Debug\TicTacTwo.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\TicTacTwo\obj\Debug\TicTacTwo.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\TicTacTwo\obj\Debug\TicTacTwo.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\TicTacTwo\obj\Debug\TicTacTwo.pdb
