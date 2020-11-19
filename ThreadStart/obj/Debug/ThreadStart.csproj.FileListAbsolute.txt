@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\ThreadStart\bin\Debug\ThreadStart.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\ThreadStart\bin\Debug\ThreadStart.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\ThreadStart\bin\Debug\ThreadStart.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\ThreadStart\obj\Debug\ThreadStart.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\ThreadStart\obj\Debug\ThreadStart.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\ThreadStart\obj\Debug\ThreadStart.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\ThreadStart\obj\Debug\ThreadStart.pdb

@@ -1,0 +1,7 @@
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MagicSquares2\bin\Debug\MagicSquares2.exe.config
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MagicSquares2\bin\Debug\MagicSquares2.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MagicSquares2\bin\Debug\MagicSquares2.pdb
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MagicSquares2\obj\Debug\MagicSquares2.csprojAssemblyReference.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MagicSquares2\obj\Debug\MagicSquares2.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MagicSquares2\obj\Debug\MagicSquares2.exe
+C:\Users\jacqu\Documents\GitHub\myIGME-206\myIGME-206\MagicSquares2\obj\Debug\MagicSquares2.pdb
